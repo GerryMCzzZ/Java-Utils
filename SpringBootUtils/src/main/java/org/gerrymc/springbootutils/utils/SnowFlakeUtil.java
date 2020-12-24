@@ -2,7 +2,8 @@ package org.gerrymc.springbootutils.utils;
 
 /**
  * @Author GerryMC
- * @Description Twitter的分布式自增ID雪花算法snowflake
+ * @Description
+ *
  * @Date: 2020/5/15 0015 14:02
  */
 public class SnowFlakeUtil {
