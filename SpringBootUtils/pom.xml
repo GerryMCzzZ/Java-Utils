@@ -20,6 +20,9 @@
         <!-- iText5 -->
         <itextpdf.version>5.5.13.1</itextpdf.version>
         <itext-asian.version>5.2.0</itext-asian.version>
+        <!-- 阿里云短信sdk -->
+        <sdk-core.version>3.7.1</sdk-core.version>
+        <sdk-dysmsapi.version>1.1.0</sdk-dysmsapi.version>
     </properties>
 
     <dependencies>
@@ -51,6 +54,18 @@
             <groupId>com.itextpdf</groupId>
             <artifactId>itext-asian</artifactId>
             <version>${itext-asian.version}</version>
+        </dependency>
+
+        <!-- 阿里云短信sdk -->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>${sdk-core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+            <version>${sdk-dysmsapi.version}</version>
         </dependency>
 
         <!-- lombok -->

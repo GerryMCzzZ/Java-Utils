@@ -2,7 +2,7 @@ package org.gerrymc.springbootutils.utils;
 
 /**
  * @Author GerryMC
- * @Description
+ * @Description 生成雪花id工具类
  *
  * @Date: 2020/5/15 0015 14:02
  */

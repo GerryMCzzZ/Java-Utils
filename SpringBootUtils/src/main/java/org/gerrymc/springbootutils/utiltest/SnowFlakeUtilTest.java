@@ -1,4 +1,4 @@
-package org.gerrymc.springbootutils.test;
+package org.gerrymc.springbootutils.utiltest;
 
 import org.gerrymc.springbootutils.utils.SnowFlakeUtil;
 
