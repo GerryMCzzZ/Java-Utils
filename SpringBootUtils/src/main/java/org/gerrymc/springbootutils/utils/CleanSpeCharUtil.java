@@ -1,7 +1,7 @@
 package org.gerrymc.springbootutils.utils;
 
 /**
- * @author CXD
+ * @author GerryMC
  * @Description 清除特殊字符工具类
  * @date 2021/1/4
  */

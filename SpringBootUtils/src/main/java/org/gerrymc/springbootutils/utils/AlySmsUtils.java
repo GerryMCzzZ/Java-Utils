@@ -9,7 +9,7 @@ import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
 
 /**
- * @author CXD
+ * @author GerryMC
  * @Description 阿里云发送短信工具类
  * @date 2021/1/4
  */
@@ -21,7 +21,7 @@ public class AlySmsUtils {
     static final String domain = "dysmsapi.aliyuncs.com";
 
     // TODO 此处需要替换成开发者自己的AK(在阿里云访问控制台寻找)
-    static final String accessKeyId = "********";
+    static final String accessKeyId = "*********";
     static final String accessKeySecret = "***********";
 
 
