@@ -9,7 +9,7 @@ import java.io.FileOutputStream;
 
 /**
  * @author GerryMC
- * @Description PDF常用工具类
+ * @Description PDF画图工具
  * @date 2020/12/15
  */
 public class ITextPdfUtil {
