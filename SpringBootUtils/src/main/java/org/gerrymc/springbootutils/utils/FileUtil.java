@@ -11,6 +11,23 @@ import java.net.URLEncoder;
  */
 
 public class FileUtil {
+
+    //创建文件夹
+    public static void createDirectory(String path) {
+        File file = new File(path);
+        if (!file.isDirectory()) {
+            file.mkdirs();
+        }
+    }
+
+    //创建文件
+    public static void createFile(String path) throws IOException {
+        File file = new File(path);
+        if (!file.isFile()) {
+            file.createNewFile();
+        }
+    }
+
     /**
      * 上传文件
      *
